@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_AngularLayout.cshtml";
+    ViewBag.Title = "Non-Sport Game Statistics";
+}
+@section Head {
+    <% htmlWebpackPlugin.files.css.forEach(function(css){ %>
+	<link href="<%= css%>" rel="stylesheet"/>
+	<% }) %>
+}
+<nap-app>Loading...</nap-app>
+<% htmlWebpackPlugin.files.js.forEach(function(js){ %>
+<script src="<%= js%>"></script>
+<% }) %>

@@ -1,0 +1,26 @@
+﻿@import '../../assets/Libs/Fanex.Grid/Fanex.Grid.css';
+@import '../../assets/Libs/Fanex.Grid/Fanex.Pagination.css';
+
+.grid-boundary {
+    a {
+        color: blue;
+    }
+
+    .freegrid .word-break-all {
+        word-break: break-all;
+    }
+
+    .grid-title {
+        .breadcrumb {
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+
+            .breadcrumb-item {
+                &.active {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}

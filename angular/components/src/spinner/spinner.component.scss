@@ -1,0 +1,25 @@
+﻿@import '../../shared/style/mixins';
+
+.spinner-container {
+    & > .spinner-overlay {
+        z-index: $zindex-modal + 1;
+        background: white;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    & > .spinner-loading {
+        z-index: $zindex-modal + 2;
+        background: url(images/spinner.gif) no-repeat center center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}

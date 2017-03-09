@@ -1,0 +1,38 @@
+.page-header {
+    text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+    font-size: 1.2em;
+    padding: 8px 0;
+    margin: 0;
+
+    .active {
+        color: #0136ac;
+    }
+
+    .icon {
+        display: inline-block;
+        position: relative;
+        top: 3px;
+        left: 5px;
+        width: 18px;
+        height: 17px;
+        cursor: pointer;
+
+        &.icon-expand {
+            background-image: url(images/icon-expand.png);
+            background-position: 0 -27px;
+
+            &:hover {
+                background-position: 0 -1px;
+            }
+        }
+
+        &.icon-collapse {
+            background-image: url(images/icon-collapse.png);
+            background-position: 0 -27px;
+
+            &:hover {
+                background-position: 0 -1px;
+            }
+        }
+    }
+}

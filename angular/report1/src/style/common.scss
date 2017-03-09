@@ -1,0 +1,28 @@
+﻿@import 'variables.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'page-header';
+@import 'fanex-grid';
+
+select.form-control:not([size]):not([multiple]) {
+    padding: 0.2rem 0.3rem;
+}
+
+nap-app {
+    float: left;
+    width: 100%;
+}
+
+.table.table-nap {
+    $border-color: #c5c5c5;
+
+    th {
+        color: white;
+        background: #3c5ea5;
+    }
+
+    th, td {
+        padding: 0.5rem;
+        border: 1px solid #c5c5c5;
+        font-size: 0.9rem;
+    }
+}
