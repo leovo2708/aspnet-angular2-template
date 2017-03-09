@@ -1,0 +1,5 @@
+﻿<select class="form-control" [ngModel]="value" (ngModelChange)="onModelChange($event)">
+    <option *ngFor="let item of items" [ngValue]="item.value">
+        {{item.text}}
+    </option>
+</select>

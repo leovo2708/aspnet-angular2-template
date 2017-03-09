@@ -1,0 +1,52 @@
+﻿<div class="dropdown" [class.open]="isOpen">
+    <input #dropdownInput class="form-control dropdown-toggle date-picker-input" type="button" [value]="date | napMomentFormat" aria-haspopup="true" aria-expanded="false" (click)="toggleOpen()" />
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" (click)="$event.stopPropagation()">
+        <div class="container-fluid date-picker-calendar">
+            <div class="row row-controls">
+                <div class="calendar-previous">
+                    <button class="btn btn-primary" [disabled]="previousDisabled" (click)="goPreviousMonth()">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="calendar-month">
+                    <select class="form-control" [value]="month" (change)="onChangeMonth($event.target.value)">
+                        <option *ngFor="let item of months" [value]="item">
+                            {{getMonthName(item)}}
+                        </option>
+                    </select>
+                </div>
+                <div class="calendar-year">
+                    <select class="form-control" [value]="year" (change)="onChangeYear($event.target.value)">
+                        <option *ngFor="let item of years" [value]="item">
+                            {{item}}
+                        </option>
+                    </select>
+                </div>
+                <div class="calendar-next">
+                    <button class="btn btn-primary" [disabled]="nextDisabled" (click)="goNextMonth()">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="calendar-day" *ngFor="let dayHeader of dayHeaders" [ngClass]="{'day-weekend': dayHeader.isWeekend}" title="{{dayHeader.description}}">
+                                {{dayHeader.text}}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let week of weeks">
+                            <td class="calendar-date" *ngFor="let date of week.dates" (click)="onChangeDate(date)"
+                                [ngClass]="{'date-active': date.active, 'date-disabled': date.disabled, 'date-past': date.past, 'date-future': date.future}">
+                                {{date.text}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

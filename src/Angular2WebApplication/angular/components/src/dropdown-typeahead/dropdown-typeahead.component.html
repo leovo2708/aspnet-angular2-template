@@ -1,0 +1,8 @@
+﻿<div class="dropdown" [class.open]="hasItems">
+    <input class="form-control" [(ngModel)]="text" type="text" placeholder="Search All" (keydown)="onKeydown($event)" (ngModelChange)="onModelChange()" />
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a *ngFor="let item of items; let i = index" class="dropdown-item" [class.active]="i === index" href="javascript:;" (click)="onItemClick(item)">
+            {{item}}
+        </a>
+    </div>
+</div>

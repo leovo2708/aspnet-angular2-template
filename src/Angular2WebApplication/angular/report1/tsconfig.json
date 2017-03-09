@@ -25,11 +25,23 @@
       "numeral"
     ],
     "paths": {
+      "components/date-picker": [
+        "../components/src/date-picker/date-picker.component"
+      ],
+      "components/dropdown-select": [
+        "../components/src/dropdown-select"
+      ],
+      "components/dropdown-typeahead": [
+        "../components/src/dropdown-typeahead/dropdown-typeahead.component"
+      ],
+      "components/modal": [
+        "../components/src/modal"
+      ],
       "components/spinner": [
-        "../components/src/spinner/shared"
+        "../components/src/spinner"
       ],
       "components/toast": [
-        "../components/src/toast/shared"
+        "../components/src/toast"
       ],
       "components/*": [
         "../components/src/*"

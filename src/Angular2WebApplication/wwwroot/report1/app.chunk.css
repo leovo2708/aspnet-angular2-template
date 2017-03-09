@@ -1,0 +1,158 @@
+nap-date-picker {
+  position: relative; }
+  nap-date-picker .date-picker-input {
+    text-align: left;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIBJREFUeNpiZEhaq8XAwNAPxJYMEHAcSsP4DDjEQfxCRqABO7EoJhYcZ4Fp/j83iA9EMyav+4TMhwF0cSjfkomBQsCCLoBuMyFx6roA6K//xGgCuoYRpwtAkjAFuNi08wK6N3Cx8bpg6HmBBVf0EAsozkygMChEyqokaQbpBQgwACpER1b4DkfdAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: center right .5rem; }
+  nap-date-picker .dropdown-menu .date-picker-calendar {
+    padding: 0 0.5rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar > .row {
+      margin: 0; }
+      nap-date-picker .dropdown-menu .date-picker-calendar > .row.row-controls {
+        margin-bottom: 0.3rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next {
+      float: left;
+      position: relative;
+      width: 16.66667%; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button {
+        color: #000;
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:hover {
+          color: #000;
+          background-color: #e6e6e6;
+          border-color: rgba(0, 0, 0, 0.15); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.focus {
+          color: #000;
+          background-color: #e6e6e6;
+          border-color: rgba(0, 0, 0, 0.15); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:active, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.active,
+        .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.dropdown-toggle, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:active, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.active,
+        .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.dropdown-toggle {
+          color: #000;
+          background-color: #e6e6e6;
+          border-color: rgba(0, 0, 0, 0.15);
+          background-image: none;
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+          nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:active.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.active.focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.dropdown-toggle:hover,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.dropdown-toggle:focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.dropdown-toggle.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:active.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.active.focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.dropdown-toggle:hover,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.dropdown-toggle:focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.dropdown-toggle.focus {
+            color: #000;
+            background-color: #d4d4d4;
+            border-color: rgba(0, 0, 0, 0.15); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.disabled.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:disabled.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.disabled.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:disabled.focus {
+          background-color: #fff;
+          border-color: rgba(0, 0, 0, 0.15); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button.disabled:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous button:disabled:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button.disabled:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next button:disabled:hover {
+          background-color: #fff;
+          border-color: rgba(0, 0, 0, 0.15); }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-previous {
+      text-align: center;
+      padding-right: 0.3rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-next {
+      text-align: center;
+      padding-left: 0.3rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-month, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-year {
+      float: left;
+      position: relative;
+      width: 33.33333%; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-month, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-year {
+      padding-left: 0.3rem;
+      padding-right: 0.3rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar table {
+      font-size: 1rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-day {
+      text-align: center;
+      font-size: 1rem; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-day.day-weekend {
+        color: #c84519; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date {
+      text-align: center;
+      border-radius: 4px;
+      padding: 0.3rem 0.6rem;
+      cursor: pointer; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date:hover {
+        background: #eeeeee; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-past, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-future {
+        color: gray; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active {
+        color: #fff;
+        background-color: #0275d8;
+        border-color: #0275d8;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:hover {
+          color: #fff;
+          background-color: #025aa5;
+          border-color: #01549b; }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.focus {
+          color: #fff;
+          background-color: #025aa5;
+          border-color: #01549b; }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:active, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.active,
+        .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.dropdown-toggle {
+          color: #fff;
+          background-color: #025aa5;
+          border-color: #01549b;
+          background-image: none;
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+          nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:active.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.active:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.active:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.active.focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.dropdown-toggle:hover,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.dropdown-toggle:focus,
+          .open > nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.dropdown-toggle.focus {
+            color: #fff;
+            background-color: #014682;
+            border-color: #01315a; }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.disabled.focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:disabled:focus, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:disabled.focus {
+          background-color: #0275d8;
+          border-color: #0275d8; }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active.disabled:hover, nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-active:disabled:hover {
+          background-color: #0275d8;
+          border-color: #0275d8; }
+      nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-disabled {
+        cursor: not-allowed;
+        opacity: .65;
+        box-shadow: none; }
+        nap-date-picker .dropdown-menu .date-picker-calendar .calendar-date.date-disabled:hover {
+          background: transparent; }
+    nap-date-picker .dropdown-menu .date-picker-calendar .btn, nap-date-picker .dropdown-menu .date-picker-calendar select.form-control:not([size]):not([multiple]) {
+      height: 1.8rem;
+      padding: 0 0.6rem; }
+    nap-date-picker .dropdown-menu .date-picker-calendar select.form-control:not([size]):not([multiple]) {
+      height: 1.8rem;
+      padding: 0 0.3rem; }
+.modal .modal-header {
+  background: #5a7dc1;
+  color: white;
+  background-image: linear-gradient(to bottom, #486cb8 0%, #5a7dc1 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF486CB8', endColorstr='#FF5A7DC1', GradientType=0); }
+  .modal .modal-header .modal-title {
+    font-weight: bold; }
+  .modal .modal-header .close {
+    color: white;
+    opacity: 1; }
+.spinner-container > .spinner-overlay {
+  z-index: 1051;
+  background: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
+
+.spinner-container > .spinner-loading {
+  z-index: 1052;
+  background: url(data:image/gif;base64,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) no-repeat center center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
