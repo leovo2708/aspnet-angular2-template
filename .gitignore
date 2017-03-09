@@ -34,4 +34,4 @@ packages/
 
 # Node Files #
 node_modules
-wwwroot
+npm-debug.log

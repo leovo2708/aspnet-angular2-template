@@ -13,7 +13,7 @@ module.exports = webpackMerge(commonConfig, {
 
     output: {
         path: path.resolve(__dirname, '../../../wwwroot/report1'),
-        publicPath: 'wwwroot/report1/',
+        publicPath: '~/report1/',
         filename: "[name].chunk.js"
     },
 

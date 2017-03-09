@@ -5,14 +5,14 @@
     <title>Angular With Webpack</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<% htmlWebpackPlugin.files.css.forEach(function(css){ %>
-	<link href="<%= css%>" rel="stylesheet"/>
-	<% }) %>
+    <% htmlWebpackPlugin.files.css.forEach(function(css){ %>
+    <link href="<%= css%>" rel="stylesheet"/>
+    <% }) %>
 </head>
 <body nap-url="/" nap-today="<%= htmlWebpackPlugin.options.today%>" nap-balance-up-date="<%= htmlWebpackPlugin.options.balanceUpDate%>">
     <nap-app>Loading...</nap-app>
-	<% htmlWebpackPlugin.files.js.forEach(function(js){ %>
-	<script src="<%= js%>"></script>
-	<% }) %>
+    <% htmlWebpackPlugin.files.js.forEach(function(js){ %>
+    <script src="<%= js%>"></script>
+    <% }) %>
 </body>
 </html>
